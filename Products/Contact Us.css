@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.frontpage img {
+    object-fit: cover;
+}
+
+/* dropdown */
+nav a {
+    display: block;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 13pt;
+    color: #112233;
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
+
+}
+
+/* nav a:hover{
+        background:#223433;
+        color:#f0f1f5;
+    } */
+
+/* nav ul{
+        list-style: none;
+    } */
+
+nav ul li {
+    float: left;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    /* background:#fc575e; */
+}
+
+nav ul ul li {
+    position: relative;
+    display: none;
+}
+
+nav ul ul ul {
+    display: none;
+}
+
+nav ul li:hover ul li {
+    display: block;
+    animation: navmenu 500ms forwards;
+}
+
+/* @keyframes navmenu {
+    0% {
+        opacity: 0;
+        top: 5px;
+    }
+
+    100% {
+        opacity: 1;
+        top: 0px;
+    }
+} */
+
+nav ul ul li:hover ul {
+    display: block;
+    position: absolute;
+    width: 180px;
+    left: 150px;
+    top: 0px;
+}
+/* first */
+.first li {
+    list-style: none;
+}
+.first li a{
+    text-decoration: none;
+    color: #9D6A32;
+}
+. {
+    border: 1px solid;
+    background-color:#079247;
+    color:#fff;
+    height: 60px;
+    width: 235px;
+}
+. :hover{
+    background-color: #9D6A32;
+}
+. s1{
+    /* border-style: solid;  */
+    border-width: 0px 0px 1px 0px;
+    border-color: rgba(35, 66, 97, 0.1);
+    border-radius: 0px 0px 0px 0px;
+    color: green;
+    padding: 10px 0px 10px 0px;
+    overflow: hidden;
+    
+}
+/* second page */
+
+input{
+    display:flex;
+    flex-direction:column;
+    border: 0;
+    border-bottom: 1px solid #3D3D3D;
+    outline: none;
+padding:30px 0px 20px 0px;
+text-transform:capitalize;
+font-size: 18px;
+width: 230px;
+
+}
+.boxs{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.contactus{
+    color: #234261;
+}
+
+/* footer */
+.footers ul li {
+    list-style: none;
+}
+
+.footers ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
